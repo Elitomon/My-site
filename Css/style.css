@@ -1,0 +1,44 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.gamer {
+    text-decoration: underline;
+}
+
+.topContainer {
+    background-color: aquamarine;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middleContainer {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+
+}
+
+.bottomContainer {
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+
+}
+.bottom-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
