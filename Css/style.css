@@ -1,37 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:wght@100;400;500&display=swap');
 
 body {
-    background-color: aquamarine;
     text-align: center;
-    font-family:  "Kumbh Sans", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
 }
 
 h1 {
     margin-top: 0;
+    font-family: 'sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
+
+
+h2 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
 
 .gamer {
     text-decoration: underline;
 }
 
 .topContainer {
-    background-color: aquamarine;
+    background-color: rgb(154, 250, 234);
     position: relative;
     padding-top: 100px;
 }
 
 
 .middleContainer {
-    background-color: blueviolet;
-    height: 100px;
-    width: 100px;
 
 }
 
 .bottomContainer {
-    background-color: burlywood;
-    height: 100px;
-    width: 100px;
+
 
 }
 .bottom-cloud {
@@ -44,4 +60,19 @@ h1 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.Destiny {
+    height: 30%;
+    width: 40%;
+    border-radius: 50%;
+}
+.Overwatch {
+    height: 30%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.Clash-clans {
+    border-radius: 50%;
 }
