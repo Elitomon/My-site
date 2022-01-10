@@ -24,14 +24,20 @@ h2 {
 h3 {
     font-family: 'montserrat', sans-serif;
     color: #11999E;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0;
 }
 
 a {
     color: #11999E;
 }
 
+P {
+    font-size: 24px;
+}
 
-.gamer {
+.computer {
     text-decoration: underline;
 }
 
@@ -41,15 +47,24 @@ a {
     padding-top: 100px;
 }
 
-
 .middleContainer {
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
 
 }
 
-.bottomContainer {
-
+.profile {
+    margin: 100px auto;
+    width: 75%;
+    text-align: center;
 
 }
+
 .bottom-cloud {
     position: absolute;
     right: 300px;
@@ -62,17 +77,22 @@ a {
     bottom: 300px;
 }
 
-.Destiny {
-    height: 30%;
-    width: 40%;
-    border-radius: 50%;
-}
-.Overwatch {
-    height: 30%;
-    width: 40%;
-    border-radius: 50%;
+.chakra {
+    height: 100px;
+    width: 100px;
 }
 
-.Clash-clans {
-    border-radius: 50%;
+.video {
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-left: 30px;
+}
+
+.panda {
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    
 }
