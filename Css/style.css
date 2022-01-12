@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2em;
+    margin: 0;
 }
 
 h1 {
@@ -34,7 +35,16 @@ a {
 }
 
 P {
-    font-size: 24px;
+    font-size: 18px;
+    color: #40514e;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #bac4c4;
+    border-width: 5px;
+    width: 5%;
 }
 
 .computer {
@@ -42,19 +52,24 @@ P {
 }
 
 .topContainer {
-    background-color: rgb(154, 250, 234);
+    background-color: rgb(170, 248, 235);
     position: relative;
     padding-top: 100px;
 }
 
-.middleContainer {
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 70px;
+    padding-bottom: 0;
+    margin-top: 70px;
 }
 
 .skill-row {
-    margin: 100px auto;
+    margin: 100px auto 200px auto;
     width: 50%;
     text-align: left;
     line-height: 2;
+
 
 }
 
@@ -95,4 +110,30 @@ P {
     float: left;
     margin-right: 30px;
     
+}
+.contact-button {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #66BFBF;
+    height: 50px;
+    width: auto;
+    text-decoration-color: white;
+    text-size-adjust: 20px;
+    text-decoration: none;
+
+}
+
+.email {
+    color: white;
+    text-size-adjust: 20px;
+    text-decoration: none;
+    margin: 50px 0;
+
+}
+
+.tooClose {
+    margin: 50px auto;
 }
